@@ -1,0 +1,54 @@
+/* GroupList.css */
+
+.group-list-container {
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  .group-list-container .group-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .group-list-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .group-list-container li {
+    margin-bottom: 20px;
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+  
+  .group-list-container li h3 {
+    margin-bottom: 10px;
+  }
+  
+  .friend-item {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 20px;
+  }
+  
+  .friend-item .friend-icon {
+    margin-right: 5px;
+  }
+  
+  /* Animatie fadeIn */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .invitation-message {
+    color: red;
+  }
+  
+  
+  
